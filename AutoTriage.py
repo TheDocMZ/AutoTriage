@@ -219,7 +219,7 @@ def runEZTools(defaults, verbose, case):
 def main():
     # parser arguments
     # Usage: AutoTriage.py -r [regripper | eztools | all] [-y] [-v]
-    parser = argparse.ArgumentParser(description='AutoTriage.py Triage Automation Script - TheDocMZ (https://github.com/TheDocMZ)')
+    parser = argparse.ArgumentParser(description='AutoTriage.py Triage Automation Script - TheDocMZ (https://github.com/TheDocMZ/AutoTriage)')
     parser.add_argument('-r', '--run', choices=['regripper', 'eztools', 'all'], help='Identify which tools to run: RegRipper, EZ Tools, or all', action='store', required=True)
     parser.add_argument('-y', '--yes', help='Accept default directories', default=False, action='store_true', required=False)
     parser.add_argument('-v', '--verbose', help='Verbose output', default=False, action='store_true', required=False)
