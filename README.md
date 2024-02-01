@@ -1,5 +1,5 @@
 # AutoTriage
-A host forensics triage script that leverages several command line tools to automate the extraction of key data to perform an initial analysis. The data extracted includes Windows Registry Hives, MFT, Shimcache, Amcache, Prefetch, and Event Logs. 
+A Windows host forensics triage script that leverages several command line tools to automate the extraction of key data to perform an initial analysis. The data extracted includes Windows Registry Hives, MFT, Shimcache, Amcache, Prefetch, and Event Logs. 
 
 ## Dependencies:
 This script utilizes [RegRipper3.0](https://github.com/keydet89/RegRipper3.0) and [Eric Zimmerman Tools](https://ericzimmerman.github.io/#!index.md). These can be downloaded from their respective links. Additionally, the script provides the option to automate downloading these tools. The default location assumed by the script is  `C:\Tools\`.
@@ -17,6 +17,7 @@ Optional arguments:
 	- rip.exe - `C:\Tools\RegRipper\`
 	- EZ Tools - `C:\Tools\ZimmermanTools\net6\"
 	- Default source data - `C:\Cases\<Case#>\E\`
-	- Default destination - `C:\Cases\<Case#>\Analysis\"
+	- Default destination - `C:\Cases\<Case#>\Analysis\`
 
-
+## Additional Resources
+[Blue Cape Security PWF](https://github.com/bluecapesecurity/PWF) is a great resource that provides training on conducting a Windows forensic investigation, instructions for setting up a virtual environment, and how to leverage these tools and more as part of an investigation. 
