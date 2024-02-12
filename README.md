@@ -15,7 +15,7 @@ Optional arguments:
 - `-v` / `--verbose` for verbose output from the tools being executed
 - `-y` / `--yes` for auto accepting the default source and destination directories
 	- rip.exe - `C:\Tools\RegRipper\`
-	- EZ Tools - `C:\Tools\ZimmermanTools\net6\"
+	- EZ Tools - `C:\Tools\ZimmermanTools\net6\`
 	- Default source data - `C:\Cases\<Case#>\E\`
 	- Default destination - `C:\Cases\<Case#>\Analysis\`
 
